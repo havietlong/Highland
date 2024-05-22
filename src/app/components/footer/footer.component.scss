@@ -1,0 +1,18 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(83, 56, 44, 1);
+    color: white;
+    button{
+        width: 297px;
+    }
+    .social{
+        display: flex;
+        gap: 20px;
+        font-size: 40px;
+    }
+    .texts{
+        text-align: center;
+    }
+}

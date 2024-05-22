@@ -1,0 +1,9 @@
+<div class="home-container">
+  <app-product-display *ngFor="let product of products"
+    [name]="product.title"
+    [description]="product.description"
+    [imageLink]="product.imgLink"
+    [color]="product.Color"
+    [ngStyle]="{'background-color': product.bgColor, 'color': product.Color}">
+  </app-product-display>
+</div>
