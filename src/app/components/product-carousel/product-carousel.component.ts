@@ -16,23 +16,23 @@ export class DisplayProductsPageComponent implements OnInit {
 responsiveOptions: any[] | undefined;
 hidePaginator: boolean = false;
   ngOnInit() { 
-    console.log(this.products);
+    // console.log(this.products);
     
     this.responsiveOptions = [
       {
         breakpoint: '1199px',
-        numVisible: 1,
-        numScroll: 1
+        numVisible: 2,
+        numScroll: 2
       },
       {
         breakpoint: '991px',
         numVisible: 2,
-        numScroll: 1
+        numScroll: 2
       },
       {
         breakpoint: '767px',
-        numVisible: 1,
-        numScroll: 1
+        numVisible: 2,
+        numScroll: 2
       }
     ];
   }
