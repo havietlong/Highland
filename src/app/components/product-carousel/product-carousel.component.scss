@@ -1,0 +1,11 @@
+.brown {
+    color: #6C584D;
+}
+
+::ng-deep{
+    .p-hide-paginator{
+     .p-carousel-indicators{
+     display: none !important;
+   }
+}
+}
